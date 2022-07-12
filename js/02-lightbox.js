@@ -13,6 +13,7 @@ function createGalleryMarkup(galleryItems) {
         </a></li>
         </ul>`;
     })
+    .join("");
 }
 
 const lightbox = new SimpleLightbox(".gallery a", {
